@@ -1,0 +1,141 @@
+:root {
+  --bg1: #00000000;
+  --bg2: #5959591f;
+  --text1: white;
+  --text2: #a0a0a0;
+}
+
+/* *{
+  border: 1px solid white;
+} */
+
+
+
+/* put these in your global CSS (not Tailwind file) */
+.section {
+  transition: transform 500ms ease, opacity 500ms ease, filter 500ms ease;
+  will-change: transform, opacity, filter;
+}
+
+/* blurred / vanishing state */
+.autoBlur {
+  filter: blur(10px);
+  opacity: 0.45;
+  transform: translateY(-20px) scale(0.995);
+}
+
+/* subtle reverse when scrolling back */
+.autoUnblur {
+  filter: blur(0);
+  opacity: 1;
+  transform: translateY(0) scale(1);
+}
+
+/* optional keyframes if you want an explicit animation instead of transition */
+@keyframes blurOut {
+  0% {
+    filter: blur(0);
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+  100% {
+    filter: blur(10px);
+    opacity: 0.45;
+    transform: translateY(-20px) scale(0.995);
+  }
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+
+::-webkit-scrollbar {
+    padding: 3px;
+  width: 7px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #000000;
+
+
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #9f9f9f;
+    border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #565656;
+    border-radius: 12px;
+}
+/* 
+body{
+   cursor: none;
+} */
+
+/* MAIN CURSOR WRAPPER */
+.cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  pointer-events: none;
+  transform: translate(0, 0);
+  z-index: 999999;
+}
+
+
+/* ----------------------------------
+   MODE 1 — Simple Default Cursor
+---------------------------------- */
+.cursor-default {
+  width: 18px;
+  height: 18px;
+  background: transparent;
+  clip-path: polygon(6% 0, 85% 73%, 30% 65%, 0 99%);
+  background: #baf6ff;                      /* light cyan */
+  transition: opacity 0.15s ease;
+}
+
+
+/* ----------------------------------
+   MODE 2 — Negative Mask Hover (data-cursor)
+---------------------------------- */
+.cursor-negative {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #f8f8f848;
+  mix-blend-mode: difference;
+  transition: 
+    width 0.25s ease,
+    height 0.25s ease,
+    transform 0.25s ease,
+    background 0.25s ease;
+  opacity: 0; /* Hidden unless active */
+}
+
+
+/* ----------------------------------
+   MODE 3 — Text Bubble Cursor (text-cursor)
+---------------------------------- */
+.cursor-text {
+  padding: 14px 28px;
+  border-radius: 40px;
+  background: rgba(20, 20, 20, 0.75);
+  backdrop-filter: blur(12px);
+  color: white;
+  font-size: 15px;
+  font-weight: 600;
+  opacity: 0;
+  transform: scale(0.8);
+  transition: 
+    opacity 0.25s ease,
+    transform 0.25s ease;
+}
+
+

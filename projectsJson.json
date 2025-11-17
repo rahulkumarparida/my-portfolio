@@ -1,0 +1,118 @@
+[
+  {
+    "id": 1,
+    "thumbnail": "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113494/Vite_React_-_Google_Chrome_13-11-2025_16_44_37_u1xlks.png",
+    "title": "airBNB REST API",
+    "description": "This project is a simplified backend clone of Airbnb’s core functionality. It provides APIs for user authentication, listing properties, managing bookings, and fetching property details. The system handles CRUD operations for listings, supports secure login/signup, and allows users to create and manage reservations. It’s built with clean REST principles, structured models, and proper validation to mimic how a real accommodation-booking platform works.",
+    "github_url": "https://github.com/rahulkumarparida/AirBNB",
+    "project_url": "https://airbnbapi-6s4b.onrender.com/api/docs/",
+    "date": "2025-11-09",
+    "tags": ["Django", "Django REST Framework", "PostgreSQL", "JWT", "Djoser"],
+    "project_img_arr": [
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113494/Vite_React_-_Google_Chrome_13-11-2025_16_44_37_u1xlks.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113502/Render_Dashboard_-_Google_Chrome_13-11-2025_16_49_10_cyjfzn.png",  
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113495/Vite_React_-_Google_Chrome_13-11-2025_16_45_42_rvpefv.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113499/Vite_React_-_Google_Chrome_13-11-2025_16_48_45_hh0yzr.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113499/Render_Dashboard_-_Google_Chrome_13-11-2025_16_50_33_sgi1vj.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113501/Render_Dashboard_-_Google_Chrome_13-11-2025_16_50_41_k66wvi.png" 
+    ]
+  },
+  {
+    "id": 2,
+    "thumbnail": "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113557/TIC-TAC-TOE_-_Google_Chrome_13-11-2025_16_40_49_dign96.png",
+    "title": "Pneumonia Detecttion Model",
+    "description": "A beginner-friendly deep learning project that predicts pneumonia from Chest X-ray images. Trained on a small dataset for demonstration purposes. Uses transfer learning to improve accuracy. Integrated with a custom API (built by me) to GET and POST prediction data to the frontend. End-to-end setup: model → API → frontend.",
+    "github_url": "https://github.com/rahulkumarparida/Pneumonia_Prediction",
+    "project_url": "NA",
+    "date": "2025-09-09",
+    "tags": ["Deep Learning", "Django REST Framework", "corsheaders", "JWT"],
+    "project_img_arr": [
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113557/TIC-TAC-TOE_-_Google_Chrome_13-11-2025_16_40_49_dign96.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113554/TIC-TAC-TOE_-_Google_Chrome_13-11-2025_16_41_18_kgxndu.png",  
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763116098/apiView_unbsj0.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113555/TIC-TAC-TOE_-_Google_Chrome_13-11-2025_16_41_36_o6d71l.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113557/Vite_React_-_Google_Chrome_13-11-2025_16_42_02_ckkamy.png" 
+    ]
+  },  {
+    "id": 3,
+    "thumbnail": "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763115449/qa_local.py_-_persolan_model_-_Visual_Studio_Code_14-11-2025_15_37_05_ljazj6.png",
+    "title": "Personal AI assistant",
+    "description": "I trained a lightweight AI model designed to analyze and generate insights from personal profile data. The model focuses on extracting patterns, generating clean summaries, and providing fast contextual responses. I optimized it to run locally using Ollama, which lets me load, test, and interact with the model without relying on cloud GPUs. The setup includes custom prompts, fine-tuned behavior, and a streamlined workflow for running inference directly on my system with low latency.",
+    "github_url": "https://github.com/rahulkumarparida/Ollama-Profile",
+    "project_url": "NA",
+    "date": "2025-09-09",
+    "tags": ["Deep Learning", "Structuring Datasets", "Ollama", "Context Routing"],
+    "project_img_arr": [
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763115449/qa_local.py_-_persolan_model_-_Visual_Studio_Code_14-11-2025_15_37_05_ljazj6.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763115444/qa_local.py_-_persolan_model_-_Visual_Studio_Code_14-11-2025_15_30_58_qhfxel.png",  
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763115444/qa_local.py_-_persolan_model_-_Visual_Studio_Code_14-11-2025_15_34_15_fn5nmf.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763115444/qa_local.py_-_persolan_model_-_Visual_Studio_Code_13-11-2025_17_01_47_dbyax4.png"
+    ]
+  },  
+  {
+    "id": 4,
+    "thumbnail": "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113641/Library_Management_-_Google_Chrome_13-11-2025_16_07_29_bug4wd.png",
+    "title": "Library Management System(Frontend)",
+    "description": "Frontend web app to manage books, using API integration and localStorage authentication.",
+    "github_url": "https://github.com/rahulkumarparida/Library-Management",
+    "project_url": "https://book-library-69.netlify.app/",
+    "date": "2025-02-01",
+    "tags": ["HTML", "CSS", "JS"],
+    "project_img_arr": [
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113641/Library_Management_-_Google_Chrome_13-11-2025_16_07_29_bug4wd.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113641/Library_Management_-_Google_Chrome_13-11-2025_16_07_47_dlvb5k.png",  
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113642/Library_Management_-_Google_Chrome_13-11-2025_16_07_58_wjhepy.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113644/Library_Management_-_Google_Chrome_13-11-2025_16_08_35_ojzaid.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113646/Library_Management_-_Google_Chrome_13-11-2025_16_08_42_z7o2hh.png" 
+    ]
+  },
+    {
+    "id": 5,
+    "thumbnail": "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113601/Vite_React_-_Google_Chrome_13-11-2025_17_07_58_uxcbkt.png",
+    "title": "Recipe App (React)",
+    "description": "A responsive recipe-search web application built using React (via Vite) that leverages the Spoonacular API to fetch and display recipes. Perfect for exploring meals, filtering by categories/ingredients, and viewing recipe details.",
+    "github_url": "https://github.com/rahulkumarparida/Recipe-App-React",
+    "project_url": "NA",
+    "date": "2025-03-19",
+    "tags": ["React", "Routing", "Api management"],
+    "project_img_arr": [
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113601/Vite_React_-_Google_Chrome_13-11-2025_17_07_58_uxcbkt.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113599/Vite_React_-_Google_Chrome_13-11-2025_17_08_17_lre38t.png",  
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113598/Vite_React_-_Google_Chrome_13-11-2025_17_08_04_g4sn7v.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113596/Vite_React_-_Google_Chrome_13-11-2025_17_08_09_garalu.png"
+    ]
+  },
+  {
+    "id": 6,
+    "thumbnail": "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113740/Library_Management_-_Google_Chrome_13-11-2025_16_15_17_vlmhe4.png",
+    "title": "Weather App",
+    "description": "A responsive web app that allows you to search for the weather of any location including your home. I have used openweather API for the data and reports and handled it as much possible",
+    "github_url": "https://github.com/rahulkumarparida/Weather-Application",
+    "project_url": "NA",
+    "date": "2025-02-27",
+    "tags": ["HTML", "CSS","JS", "Api management"],
+    "project_img_arr": [
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113745/Library_Management_-_Google_Chrome_13-11-2025_16_15_31_fhn8k2.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113741/Weather_Application_-_Google_Chrome_13-11-2025_16_16_23_diok3y.png",  
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113740/Library_Management_-_Google_Chrome_13-11-2025_16_16_05_q0ivyn.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113740/Library_Management_-_Google_Chrome_13-11-2025_16_15_17_vlmhe4.png"
+    ]
+  },
+{
+    "id": 7,
+    "thumbnail": "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113684/Render_Dashboard_-_Google_Chrome_13-11-2025_16_56_43_fkrzcb.png",
+    "title": "Student Management App",
+    "description": "A Student Management System covering CRUD operations in postgreSQL",
+    "github_url": "https://github.com/rahulkumarparida/Student-Management-System",
+    "project_url": "NA",
+    "date": "2025-05-17",
+    "tags": ["HTML", "CSS","Flask","Database", "Fast Api"],
+    "project_img_arr": [
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113684/Render_Dashboard_-_Google_Chrome_13-11-2025_16_56_43_fkrzcb.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113685/Render_Dashboard_-_Google_Chrome_13-11-2025_16_56_51_zpa1mv.png",  
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113686/Render_Dashboard_-_Google_Chrome_13-11-2025_16_56_57_gwws9u.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113687/Render_Dashboard_-_Google_Chrome_13-11-2025_16_57_13_riv5mj.png",
+      "https://res.cloudinary.com/dr43lpbzz/image/upload/v1763113684/app.py_-_Student_Management_System_-_Visual_Studio_Code_13-11-2025_16_57_25_pggtvq.png"
+    ]
+  } 
+]
