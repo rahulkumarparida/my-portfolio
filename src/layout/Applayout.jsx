@@ -6,6 +6,7 @@ import BackgroundLight from "../components/utils/BackgroundLight";
 import Projects from "../context/Projects";
 import ChatBox from "../components/utils/ChatBox";
 import About from "../context/About";
+import Certifications from "../context/Certifications";
 
 const Applayout = () => {
   useEffect(() => {
@@ -40,8 +41,8 @@ const Applayout = () => {
       <Projects/>
       {/* Teck stack */}
       <TechStackOrbit/>
-
-
+      {/* Certifications */}
+      <Certifications />
       
         {/* Chatbox */}
         <div className="w-[80%] mt-40 m-10 flex justify-center "> 
