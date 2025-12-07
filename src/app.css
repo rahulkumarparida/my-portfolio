@@ -8,7 +8,9 @@
 /* *{
   border: 1px solid white;
 } */
-
+*{
+  font-family: "Google Sans Flex", sans-serif;;
+}
 
 
 /* put these in your global CSS (not Tailwind file) */

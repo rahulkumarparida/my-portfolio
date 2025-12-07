@@ -6,11 +6,11 @@ import 'aos/dist/aos.css'; // You can also use <link> for styles
 // ..
 AOS.init();
 
-const ProjectsCarousel = ({ projects = [], autoScrollInterval = 5000 }) => {
+const ProjectsCarousel = ({ projects = [], autoScrollInterval = 10000 }) => {
   const [currentProjectIndex, setCurrentProjectIndex] = useState(0);
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const [isModalOpen, setIsModalOpen] = useState(false);
-  const [isAutoScrollPaused, setIsAutoScrollPaused] = useState(false);
+  const [isAutoScrollPaused, setIsAutoScrollPaused] = useState(true);
   
   const autoScrollRef = useRef(null);
 
@@ -139,7 +139,7 @@ const ProjectsCarousel = ({ projects = [], autoScrollInterval = 5000 }) => {
               title={isAutoScrollPaused ? "Resume auto-scroll" : "Pause auto-scroll"}
             >
               {isAutoScrollPaused ? (
-                <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                <svg className="w-4 h-4 sm:w-5 sm:h-5 " fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M14.752 11.168l-3.197-2.132A1 1 0 0010 9.87v4.263a1 1 0 001.555.832l3.197-2.132a1 1 0 000-1.664z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
                 </svg>
@@ -154,7 +154,7 @@ const ProjectsCarousel = ({ projects = [], autoScrollInterval = 5000 }) => {
           {/* Previous Project Button */}
           <button
             onClick={prevProject}
-            className="p-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className=" p-2 bg-black/10 hover:bg-white/20 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             disabled={projects.length <= 1}
           >
             <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -165,10 +165,10 @@ const ProjectsCarousel = ({ projects = [], autoScrollInterval = 5000 }) => {
           {/* Next Project Button */}
           <button
             onClick={nextProject}
-            className="p-2 bg-white/10 hover:bg-white/20 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
+            className="p-2 bg-black/10 hover:bg-white/20 rounded-lg transition-colors disabled:opacity-50 disabled:cursor-not-allowed"
             disabled={projects.length <= 1}
           >
-            <svg className="w-4 h-4 sm:w-5 sm:h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+            <svg className="w-4 h-4 sm:w-5 sm:h-5 invert-40" fill="none" stroke="currentColor" viewBox="0 0 24 24" >
               <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 5l7 7-7 7" />
             </svg>
           </button>

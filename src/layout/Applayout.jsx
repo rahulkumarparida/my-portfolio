@@ -8,6 +8,8 @@ import ChatBox from "../components/utils/ChatBox";
 import About from "../context/About";
 import Certifications from "../context/Certifications";
 
+
+
 const Applayout = () => {
   useEffect(() => {
     // 1️⃣ Initialize Lenis
@@ -27,29 +29,29 @@ const Applayout = () => {
 
     // 3️⃣ Cleanup when unmounted
     return () => lenis.destroy();
-  }, [])
-
+  }, []);
 
   return (
     <div className="min-h-screen w-screen bg-black flex flex-col items-center justify-center  ">
-   <BackgroundLight/>
-   {/* Hero */}
-      <Hero/>
+      {/* <BackgroundLight /> */}
+      {/* Hero */}
+      <Hero />
       {/* About */}
-      <About/>
+      <About />
       {/* projects */}
-      <Projects/>
+      <Projects />
       {/* Teck stack */}
-      <TechStackOrbit/>
+      <TechStackOrbit />
       {/* Certifications */}
       <Certifications />
-      
-        {/* Chatbox */}
-        <div className="w-[80%] mt-40 m-10 flex justify-center "> 
-          <ChatBox/>
-        </div>
+
+
+      {/* Chatbox */}
+      <div className="w-[80%] mt-40 m-10 flex justify-center ">
+        <ChatBox />
+      </div>
     </div>
   );
 };
- 
+
 export default Applayout;

@@ -67,7 +67,7 @@ export default function About() {
         <p
           ref={textRef}
           className="text-[#dfdcff] text-start text-xs md:text-lg md:leading-[1.5] font-mono"
-           data-aos="fade-right" data-aos-duration="1200"
+           data-aos="fade-up" data-aos-duration="1200"
         >
           Hey! I’m Rahul — a backend developer who genuinely enjoys making
           computers do things they initially refuse to do. I work with Django,
