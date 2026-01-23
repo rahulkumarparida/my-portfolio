@@ -33,7 +33,7 @@ const ChatBox = () => {
     if (input.toLowerCase().includes("experience"))
       botReply = "Rahul has strong experience in full-stack web development.";
     else if (input.toLowerCase().includes("project"))
-      botReply = "Rahul is most proud of his Library Management and Flask-based systems.";
+      botReply = "Rahul is most proud of his AirbnbAPI and Flask-based systems.";
     else if (input.toLowerCase().includes("free"))
       botReply = "In his free time, Rahul experiments with new tech stacks.";
     else if (input.toLowerCase().includes("hi") || input.toLowerCase().includes("hello"))
@@ -57,7 +57,7 @@ const ChatBox = () => {
               chat.map((msg, i) => (
                 <div
                   key={i}
-                  className={`p-2 rounded-lg max-w-[80%] text-sm md:text-base ${
+                  className={`p-2 rounded-lg max-w-[80%] text-sm text-white md:text-base ${
                     msg.sender === "user"
                       ? "bg-white/10 self-end ml-auto text-right"
                       : "bg-white/5 self-start text-left"
