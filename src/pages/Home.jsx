@@ -5,7 +5,6 @@ import BackgroundLight from '../components/utils/BackgroundLight'
 const Home = () => {
   return (
     <div>
-      {/* <BackgroundLight/> */}
       <Applayout />
     </div>
   )

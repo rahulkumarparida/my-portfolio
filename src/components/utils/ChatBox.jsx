@@ -38,7 +38,13 @@ const ChatBox = () => {
       botReply = "In his free time, Rahul experiments with new tech stacks.";
     else if (input.toLowerCase().includes("hi") || input.toLowerCase().includes("hello"))
       botReply = "Hey there! How can I help you today?";
-    const botMsg = { sender: "bot", text: botReply };
+    const botMsg = {
+  sender: "bot",
+  text: `The website is currently in the making. Email 
+         <a href="mailto:rahulkumarparida52@gmail.com" class="text-blue-600 underline">
+         rahulkumarparida52@gmail.com</a> for more info.`
+};
+
     setChat([...chat, userMsg, botMsg]);
     setInput("");
   };
@@ -63,10 +69,10 @@ const ChatBox = () => {
                       : "bg-white/5 self-start text-left"
                   }`}
                 >
-                    
-                  {msg.text}
+                  <span dangerouslySetInnerHTML={{ __html: msg.text }} />
                 </div>
               ))
+
             )}
           </div>
           <div className="flex gap-2">
